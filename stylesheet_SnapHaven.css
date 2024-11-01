@@ -1,0 +1,57 @@
+
+.row {
+    display: flex;
+    width: 100%; /* Full width of the container */
+    align-items: flex-start; /* Align items at the start */
+    justify-content: space-between; /* Ensure equal space between columns */
+    margin-top: 20px; /* Add some space above the row */
+}
+
+.col {
+    flex-basis: 45%; /* Adjusted for symmetry */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.text-container {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    height: auto; /* Allow height to adjust based on content */
+}
+
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.EXPLORE {
+    display: inline-block;
+    width: 180px;
+    color: #000; 
+    font-size: 25px;
+    padding: 5px 0;
+    background: #fff; 
+    border: 0;
+    border-radius: 10px;
+    text-align: center; 
+    text-decoration: none; 
+    transition: 0.5s; 
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+.EXPLORE:hover {
+    color: #fff; 
+    background: red;
+}
+.card{
+    display: inline-block;
+}
